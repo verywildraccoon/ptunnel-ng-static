@@ -19,6 +19,15 @@ Before you begin, ensure the following are installed on your system:
   sudo apt install build-essential libssl-dev
   ```
 
+## Compiled Binary
+
+A precompiled statically linked binary is included in this repository for convenience. You can find it in the `bin` directory. To use it, simply download and execute:
+
+```bash
+chmod +x ./bin/ptunnel-ng
+./bin/ptunnel-ng
+```
+
 ## Build Instructions
 
 ### Step 1: Download and Build OpenSSL with Static Libraries
